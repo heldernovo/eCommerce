@@ -430,7 +430,7 @@ footer {
 
 @media (max-height: 600px) {
   .header__description {
-    margin-top: 48px;
+    margin-top: 60px;
   }
   h1 {
     font-size: 34px;
@@ -442,7 +442,7 @@ footer {
     font-size: 8px;
   }
   .nav__link {
-    font-size: 12px;
+    font-size: 16px;
   }
   .logo {
     width: 140px;
