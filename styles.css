@@ -164,7 +164,7 @@ header {
   flex-direction: column;
   justify-content: space-around;
   padding-top: 24px 0;
-  position: absolute;
+  /* position: absolute; */
 }
 
 .header__description {
@@ -428,3 +428,23 @@ footer {
   }
 }
 
+@media (max-height: 600px) {
+  .header__description {
+    margin-top: 48px;
+  }
+  h1 {
+    font-size: 34px;
+  }
+  h2 {
+    font-size: 20px;
+  }
+  button {
+    font-size: 8px;
+  }
+  .nav__link {
+    font-size: 12px;
+  }
+  .logo {
+    width: 140px;
+  }
+}
