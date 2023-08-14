@@ -428,7 +428,7 @@ footer {
   }
 }
 
-@media (max-height: 600px) {
+/* @media (max-height: 600px) {
   .header__description {
     margin-top: 60px;
   }
@@ -444,4 +444,4 @@ footer {
   .nav__link {
     font-size: 16px;
   }
-}
+} */
