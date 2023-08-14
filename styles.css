@@ -163,7 +163,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  padding-top: 24px;
+  padding-top: 24px 0;
 }
 
 .header__description {
@@ -424,5 +424,11 @@ footer {
 
   .highlight:not(:last-child) {
     margin-bottom: 24px;
+  }
+}
+
+@media (max-height: 1200px) {
+  .header__container {
+    height: 800px;
   }
 }
