@@ -241,7 +241,7 @@ button:active {
   content: "";
   position: absolute;
   width: 101vw;
-  height: 12vh;
+  height: 12vw;
   left: 0;
   z-index: 1;
   background-size: cover;
